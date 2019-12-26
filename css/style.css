@@ -1,0 +1,128 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #F3F3F3;
+    text-decoration: none;
+}
+
+body h5{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #46576C;
+}
+
+body p{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #46576C;
+}
+
+body h1.display-2{
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    color: #46576C;
+}
+
+section.header button.btn{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+section.works .nav-item a{
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #46576C;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.figure-img img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.figure-img a {
+    position: absolute;
+    top: 0px;
+    left: 15px;
+    right: 15px;
+    bottom: 170px;
+    background-color: rgba(1, 21, 45, 0.6);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.figure-img:hover a {
+    opacity: 0.3;
+}
+
+figcaption.figure-caption h5{
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #46576C;
+    margin-top: 10px;
+}
+
+figcaption.figure-caption p{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+section.contact button.btn{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/* Style the header: fixed position (always stay at the top) */
+.header1 {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: #f1f1f1;
+  }
+  
+  /* The progress container (grey background) */
+  .progress-container {
+    width: 100%;
+    height: 8px;
+    background: #ccc;
+  }
+  
+  /* The progress bar (scroll indicator) */
+  .progress-bar {
+    height: 8px;
+    background: #4caf50;
+    width: 0%;
+  }
+
+  section.contact a{
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  section.contact a:hover, section.contact a:focus, section.contact a:active {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
